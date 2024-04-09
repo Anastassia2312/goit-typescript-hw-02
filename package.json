@@ -1,11 +1,18 @@
 {
-  "name": "typescript-homework-module-2",
+  "name": "goit-typescript-hw-02",
   "version": "1.0.0",
-  "description": "",
+  "description": "Метою цього домашнього завдання є закріплення ваших навичок роботи з базовими типами TypeScript. Ви будете працювати з типами, такими як number, string, boolean, null, undefined, unknown, any, а також кортежами, переліками (enum) та об'єднаннями типів.",
   "keywords": [],
-  "author": "",
+  "author": "Anastasia Polishchuk <23122000na@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.4"
   }
 }
